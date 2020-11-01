@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  max-width: 350px;
+  flex-direction: column;
+}
+
+.item > * {
+  margin-bottom: 10px;
+}
+
+.item #counter {
+  background: none;
+  min-height: 300px;
+}
+
+.item #counter:hover {
+  background-color: mintcream;
+}
+
+.item #counter:active {
+  background-color: lightblue;
+}
+
+.item #counter span {
+  display: block;
+}
